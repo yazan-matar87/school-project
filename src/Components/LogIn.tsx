@@ -20,10 +20,10 @@ export function LogIn() {
 
   return (
 <div>
-<div style={{ marginBottom: "-30%" }}> 
-  <h3>Hello</h3>
+<header style={{ marginBottom: "-30%" }}> 
+  <h3 style={{ marginBottom: "-5%" }}>Hello</h3>
   <p>Enter your email and password</p>
-</div>
+</header>
 <Card
   title={<Title level={3} style={{ textAlign: 'center' }}><UserOutlined /> Log In</Title>}
   style={{ width: 300, margin: 'auto', marginTop: '100px' }}
