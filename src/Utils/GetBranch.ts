@@ -10,3 +10,25 @@ export const fetchBranch = async () => {
     throw error;
   }
 };
+
+
+
+
+
+
+
+
+
+
+
+// import axios from 'axios';
+// import { useQuery } from 'react-query';
+
+//  const fetchBranch = async () => {
+//   const response = await axios.get('https://school-demo-back.point-dev.net/api/branch');
+//   return response.data;
+// };
+
+// export const useFetchBranch = () => {
+//   return useQuery('branch', fetchBranch);
+// };
